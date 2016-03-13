@@ -1,3 +1,4 @@
+/***** GENERAL **********/
 a {
 	 text-decoration: none;
 	 color:#6AB47B;
@@ -7,33 +8,62 @@ a {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: darkgrey;
+	background: lightblue;
 }
 
+/*** HEADING **/
 #logo { text-align: center;
 margin: 0;
 }
 
 header {
-	background:#A99738;
-	border-color:#599A68;
+	background:#DD6B78;
+	border-color:#2B0E1F;
 }
 
 h1, h2 {
 	color:#FFF;
 }
 
+/**NAVIGATION ***/
 nav {
-	background:#28536C;
+	background:#E6AA70;
 }
 
 nav a, nav a:visited
 {
 	color:#FFF;
 }
+
+/*** FOOTER ***/
+/*cambia el fondo del pie de pagina de la pagina */
 footer {
-	background:#28536C;
+	background:#E6AA70;
 }
+/*cambia el color del pie de pagina de la pagina */
 p {
-	color:#FFF;
+	color:#32673f;
+}
+/*cambia el color a las letras del menu */
+nav a.selected {
+	color: #3D348A;
+}
+/* le da efecto de sombreado al menu */
+nav a:hover 
+{
+color: #32673f;
+}
+
+/*da formato al titulo*/
+h1 { font-family: 'Lora', sans-serif;
+margin: 15px o;
+font-size: 1.75em;
+font-weight: normal;
+line-height: 1.3em;
+}
+/*da formato al subtitulo*/
+h2 { 
+font-size: 0.75em;
+margin: -5px o;
+font-weight: normal;
 }
