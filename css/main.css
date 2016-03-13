@@ -120,9 +120,27 @@ padding: 15px 10px;
 height: 30px;
 margin: 0 5px;
 }
-/*about*/
+/*para la pagina about*/
 .profile-photo { display: block;
-	max-width: 150px;
+	max-width: 450px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
+}
+/*para darle los iconos a la seccion contactos */
+.contact-info li.phone a{
+	background-image: url('../img/fono.jpg');
+}
+.contact-info li.mail a{
+	background-image: url('../img/email.jpg');
+}
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.jpg');
+}
+/*para centrar las imagenes de comunicacion en contacto*/
+.contact-info a{ display block;
+min-height: 20px;
+background-repeat: no-repeat;
+background-size: 20px 20px;
+padding: 0 0 0 30px;
+margin: 0 0 10px;
 }
