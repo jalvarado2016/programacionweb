@@ -26,21 +26,20 @@
 		float: right;
 	}
 
-}
-#galeria li { width: 28.3333%;	
+	#galeria li { width: 28.3333%;	
 
-}
+	}
 
-#galeria li:nth-child(3n+1) {clear: left;
-}
+	#galeria li:nth-child(3n+1) {clear: left;
+	}
 /***** para poner dos columnas imagen a un lado y texto al otro en la pagina about **********/
-.profile-photo { float: left;
+	.profile-photo { float: left;
 				margin: 0 5% 120px 0;	}
-
+}
 
 /****navegacion********/
 /******** ajustamos un poco la navegacion para nuestro sitios en pantalla mayores a 660px, se mueve el menu a la derecha ****************/
-@media screen and (min-width: 660px)
+@media screen and (min-width: 660px){
 nav { 
 	background: none;
 	float: right;
@@ -62,3 +61,4 @@ h2{ font-size: 0.825em;
 header { border-bottom: 5px solid #599a68;
 		margin-bottom: 60px;
 		}
+}
