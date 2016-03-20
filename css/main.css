@@ -8,7 +8,7 @@ a {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: lightblue;
+	
 }
 
 img{ 
@@ -32,6 +32,7 @@ h1, h2 {
 /**NAVIGATION ***/
 nav {
 	background:#E6AA70;
+	text-align: center;
 }
 
 nav a, nav a:visited
