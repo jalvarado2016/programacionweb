@@ -1,13 +1,27 @@
-@media scree and (min-width: 480px)
+
+/********** cambia el color del fondo segun el tamaño de la pantalla  ********/
+/*@media screen and (min-width: 480px)
+
 {
 	body {
 		background: navy;
 		}
 }
 
-@media scree and (min-width: 660px)
+@media screen and (min-width: 660px)
 {
 	body {
-		background: darkgreen;
+		background: lightblue;
 		}
-}
+} */
+
+@media screen and (min-width: 480px)
+/******** layout de 2 columnas *****************/
+{
+	#primary { width: 50%;
+		float: left;
+	}
+
+	#secondary { width: 40%;
+		float: right;
+	}
