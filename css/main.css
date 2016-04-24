@@ -175,3 +175,23 @@ list-style: none;
 #overlay p {
 	color: white;
 }
+
+#menu {
+	text-align: center;
+}
+
+/*****Menu para moviles*****/
+@media (min-width: 320px) and (max-width: 568px)
+{
+	#menu ul {
+		display: none;
+	}
+}
+
+@media (min-width: 568px)
+{
+	#menu select, 
+	#menu button {
+		display: none;
+	}
+}
